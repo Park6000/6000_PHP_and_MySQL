@@ -1,1 +1,0 @@
-# 6000_PHP_and_MySQL
