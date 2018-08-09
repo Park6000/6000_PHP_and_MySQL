@@ -1,0 +1,59 @@
+body{
+  min-width: 700px;
+  margin: 0;
+}
+#admin{
+  display: flex;
+}
+#Upstairs{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+#logo{
+  display: block;
+  margin: 25px 50px 25px 40px;
+}
+#mainlist{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  text-align: center;
+  margin: 100px 35px 0 0;
+  /* text-align: center;
+  display:block;
+  vertical-align:center; */
+}
+.mainlistelement{
+  display: table;
+  flex: 1;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  text-align: center;
+  background: #FF7900;
+  border: 1px solid #fff;
+}
+#mainlist a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+#Downstairs{
+  display: grid;
+  grid-template-columns: 193px 1fr;
+}
+#detaillist{
+  border-right: 3px solid #FF7900;
+  padding: 0;
+  margin: 25px 0 0 15px;
+}
+.detaillistelement{
+  margin: 0 0 10px 10px;
+}
+#detaillist a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+#description{
+  margin-left: 60px;
+}
